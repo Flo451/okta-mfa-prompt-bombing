@@ -21,12 +21,12 @@ The script will print some basic statistics about the scenario in the end (how m
 
 `go run prompt-bombing.go 2>&1| tee prompt_bombing.logs`
 
-### What is the purpose of Multifactor Authentication (MFA)?
+## What is the purpose of Multifactor Authentication (MFA)?
  
 Even if your user account is protected with a strong password, a successful phishing attack or stolen credential can leave you vulnerable. MFA is a core defense preventing account takeovers. In general, accounts using MFA are more secure, since an attacker must compromise both the password and verification method to access your account. If an attacker has access to one, but not both, they will remain locked out.
 Recent breaches show that MFA isn’t much of a hurdle for some hackers to clear.
  
-### MFA prompt bombing
+## MFA prompt bombing
  
 Once attackers gain access to a valid password they start issuing multiple MFA requests to the end user’s phone until the user accepts, resulting in unauthorized access to the account.
  
